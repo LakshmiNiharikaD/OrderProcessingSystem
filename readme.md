@@ -11,3 +11,6 @@ I have added default inputs to run directly
 
 PFB Architecture:
 C:\OrderProcessingSystem\systemArchitecture.png
+
+PostmanCollectiom
+xhiAssignment.postman_collection.json

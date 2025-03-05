@@ -1,0 +1,39 @@
+{
+  "Records": [
+    {
+      "messageId": "b45996a7-5446-44d3-bbd1-9085e444fbf7",
+      "receiptHandle": "AQEBUswd5io96Cnmq5Ly8GgaDs+O61AN7DCIVdS7jqOdkKqDDuQmOWq4SkqffEF/NEFfEezS7gQIe281mB7Jtm6wQtGUufEzcbIbnClYnVEyt+fd6wC28XPAFXq2M+lkOdX3MAzcBKaOxClRmoqi7i0FcKfSXwmd6jMsl9HYidF5wyZwztQnC7uHkQFoIwpF7oL8CPVGeF4YtvEDSWxLmQp36SkObtiRlOLSv4k8L1uaYGXMmI5jjGNux0ZGISPP7/nztmNkqZQvj3n8CHmujyWRgetXTAbcQ4lUt8YxhUw4nUYMmJ/nKTLX7T3QpYu4I7i7ctz4ck3pZoCVrxB6cpbXbI7q5mkzy0Yf2PUB8waJrJsGAbAauZfAuSvlKlMdzqRlYG5v3QH6lmh5aJqDCucIuNSTpeF5rd6Vo/gCxxp0d/A=",
+      "body": {
+        "Type": "Notification",
+        "MessageId": "2021e78d-3211-579b-8c48-87cdbe9dce23",
+        "TopicArn": "arn:aws:sns:eu-west-1:933713876074:DEV-ORDER-PROCESSOR-TOPIC",
+        "Message": {
+          "order": [
+            { "item": "Laptop", "quantity": 2 },
+            { "item": "Phone", "quantity": 5 },
+            { "item": "Headphones", "quantity": 3 }
+          ]
+        },
+        "Timestamp": "2025-03-04T05:06:20.842Z",
+        "SignatureVersion": "1",
+        "Signature": "XPpFPn9zcAz1S3D2pjMk1VjLwnTltwMmtBUf4GtcpzfbaT7RLS9nz2aM5X3FqGdAaYi4P4mZgRdCJo4xfVZ4SZXXco8U3/DPKNheN47pLbyuntQC22J61Free96InRnjJglesNYuC0/t3tk4S/yUsMPakT79wcKu5oxJV7iZxfCgTjNqsPOzN+zED7dsMyCzNzhWZJa/MPwiRzFx/HozxvZu7eqGVyJ+PSejM/jh7VZ7J1NUS94rrhaKXIlsAYvhjPNwGkyqdMJaeTaPuG/YPnsHErMvlBvx0WanQiInJrAReEicCuzh+x2uYxKiD2yVHgRHIs33CS2LE8lmqsT0dg==",
+        "SigningCertURL": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-9c6465fa7f48f5cacd23014631ec1136.pem",
+        "UnsubscribeURL": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:933713876074:DEV-ORDER-PROCESSOR-TOPIC:e88e6388-63b7-4b87-8dd9-f69cead429f8",
+        "MessageAttributes": {
+          "source": { "Type": "String", "Value": "" }
+        }
+      },
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1739853582108",
+        "SenderId": "AIDAISMY7JYY5F7RTT6AO",
+        "ApproximateFirstReceiveTimestamp": "1739853582118"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "c3e42fbadd912b21da41e1b8ef888740",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:eu-west-1:xxxxxx:DEV-ORDER-INVENTORY_PROCESS_QUEUE",
+      "awsRegion": "eu-west-1"
+    }
+  ]
+}

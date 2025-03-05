@@ -1,0 +1,11 @@
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - node --version
+      - npm install
+      - npm install -g serverless@3.38.0 serverless-esbuild
+  build:
+    commands:
+      - sls deploy --stage ${stage} --verbose
